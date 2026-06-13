@@ -1,0 +1,40 @@
+/* ============================================================
+   LaTabla.uy — Base
+   Reset mínimo + utilidades globales.
+   ============================================================ */
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+  color: var(--text-body);
+  background: var(--bg-page);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Cifras tabulares: SIEMPRE en columnas numéricas */
+.tnum { font-variant-numeric: tabular-nums; font-feature-settings: 'tnum'; }
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ::selection se define en colors.css (tema verde) */
+
+/* Etiqueta de columna (PJ, GF, PTS…) */
+.col-label {
+  font-size: var(--fs-caption);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-caps);
+  text-transform: uppercase;
+  color: var(--text-faint);
+}

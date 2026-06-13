@@ -1,0 +1,6180 @@
+{
+ "68407584": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 6
+  },
+  "faltas": {
+   "home": 5,
+   "away": 16
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 6,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407598": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 9,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 5
+  },
+  "faltas": {
+   "home": 11,
+   "away": 8
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407592": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 4,
+   "away": 2
+  },
+  "faltas": {
+   "home": 10,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 2,
+   "away": 0
+  }
+ },
+ "68407594": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 3
+  },
+  "faltas": {
+   "home": 20,
+   "away": 12
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407596": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 6,
+   "away": 7
+  },
+  "faltas": {
+   "home": 14,
+   "away": 13
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407590": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 8
+  },
+  "faltas": {
+   "home": 16,
+   "away": 6
+  },
+  "offsides": {
+   "home": 1,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407588": {
+  "posesion": {
+   "home": 44,
+   "away": 56
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 3,
+   "away": 8
+  },
+  "faltas": {
+   "home": 17,
+   "away": 11
+  },
+  "offsides": {
+   "home": 4,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68407586": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 1
+  },
+  "faltas": {
+   "home": 16,
+   "away": 21
+  },
+  "offsides": {
+   "home": 0,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68562764": {
+  "tiros_arco": {
+   "home": 0,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 3
+  },
+  "faltas": {
+   "home": 11,
+   "away": 11
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68562852": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 0
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 7,
+   "away": 6
+  },
+  "faltas": {
+   "home": 18,
+   "away": 10
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68562930": {
+  "posesion": {
+   "home": 60,
+   "away": 40
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 4
+  },
+  "faltas": {
+   "home": 11,
+   "away": 13
+  },
+  "offsides": {
+   "home": 3,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "68562932": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 7
+  },
+  "faltas": {
+   "home": 12,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68562934": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 4,
+   "away": 1
+  },
+  "faltas": {
+   "home": 10,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68563012": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 3
+  },
+  "corners": {
+   "home": 2,
+   "away": 6
+  },
+  "faltas": {
+   "home": 7,
+   "away": 13
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68563014": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 3
+  },
+  "faltas": {
+   "home": 15,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "68563016": {
+  "posesion": {
+   "home": 54,
+   "away": 46
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 9,
+   "away": 3
+  },
+  "faltas": {
+   "home": 15,
+   "away": 11
+  },
+  "offsides": {
+   "home": 1,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853688": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 7
+  },
+  "faltas": {
+   "home": 12,
+   "away": 17
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853690": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 6,
+   "away": 6
+  },
+  "faltas": {
+   "home": 16,
+   "away": 8
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853692": {
+  "posesion": {
+   "home": 56,
+   "away": 44
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 1
+  },
+  "faltas": {
+   "home": 9,
+   "away": 15
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "68853694": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 6
+  },
+  "faltas": {
+   "home": 11,
+   "away": 8
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 1
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "68853696": {
+  "posesion": {
+   "home": 39,
+   "away": 61
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 7
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 1,
+   "away": 6
+  },
+  "faltas": {
+   "home": 10,
+   "away": 18
+  },
+  "offsides": {
+   "home": 0,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853698": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 2
+  },
+  "faltas": {
+   "home": 19,
+   "away": 18
+  },
+  "offsides": {
+   "home": 0,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853700": {
+  "tiros_arco": {
+   "home": 8,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 0
+  },
+  "faltas": {
+   "home": 15,
+   "away": 16
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853702": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 6,
+   "away": 8
+  },
+  "faltas": {
+   "home": 16,
+   "away": 7
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853718": {
+  "posesion": {
+   "home": 43,
+   "away": 57
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 0,
+   "away": 1
+  },
+  "faltas": {
+   "home": 10,
+   "away": 16
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 5
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "68853704": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 3
+  },
+  "faltas": {
+   "home": 9,
+   "away": 10
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853706": {
+  "posesion": {
+   "home": 75,
+   "away": 25
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 4,
+   "away": 3
+  },
+  "faltas": {
+   "home": 9,
+   "away": 10
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853708": {
+  "posesion": {
+   "home": 75,
+   "away": 25
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 0,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 2
+  },
+  "faltas": {
+   "home": 5,
+   "away": 10
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853716": {
+  "posesion": {
+   "home": 42,
+   "away": 58
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 2
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 12,
+   "away": 10
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853712": {
+  "posesion": {
+   "home": 57,
+   "away": 43
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 6
+  },
+  "faltas": {
+   "home": 13,
+   "away": 14
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "68853714": {
+  "posesion": {
+   "home": 42,
+   "away": 58
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 2
+  },
+  "faltas": {
+   "home": 16,
+   "away": 15
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "68853710": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 5,
+   "away": 1
+  },
+  "corners": {
+   "home": 4,
+   "away": 3
+  },
+  "faltas": {
+   "home": 17,
+   "away": 7
+  },
+  "offsides": {
+   "home": 4,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366068": {
+  "posesion": {
+   "home": 46,
+   "away": 54
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 7,
+   "away": 6
+  },
+  "faltas": {
+   "home": 14,
+   "away": 14
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 8,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366070": {
+  "posesion": {
+   "home": 70,
+   "away": 30
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 6
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 4,
+   "away": 5
+  },
+  "faltas": {
+   "home": 8,
+   "away": 16
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "69366072": {
+  "posesion": {
+   "home": 49,
+   "away": 51
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 0
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 10,
+   "away": 3
+  },
+  "faltas": {
+   "home": 15,
+   "away": 6
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366074": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 8,
+   "away": 4
+  },
+  "faltas": {
+   "home": 12,
+   "away": 13
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366076": {
+  "posesion": {
+   "home": 37,
+   "away": 63
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 5
+  },
+  "faltas": {
+   "home": 12,
+   "away": 15
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366078": {
+  "posesion": {
+   "home": 62,
+   "away": 38
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 8,
+   "away": 4
+  },
+  "faltas": {
+   "home": 16,
+   "away": 9
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366080": {
+  "posesion": {
+   "home": 32,
+   "away": 68
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 8
+  },
+  "faltas": {
+   "home": 13,
+   "away": 16
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69366082": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 3,
+   "away": 1
+  },
+  "faltas": {
+   "home": 5,
+   "away": 12
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385562": {
+  "posesion": {
+   "home": 58,
+   "away": 42
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 2
+  },
+  "faltas": {
+   "home": 8,
+   "away": 8
+  },
+  "offsides": {
+   "home": 4,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 1,
+   "away": 2
+  }
+ },
+ "69385566": {
+  "posesion": {
+   "home": 65,
+   "away": 35
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 5
+  },
+  "faltas": {
+   "home": 16,
+   "away": 16
+  },
+  "offsides": {
+   "home": 0,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385568": {
+  "posesion": {
+   "home": 57,
+   "away": 43
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 7
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 2
+  },
+  "corners": {
+   "home": 4,
+   "away": 9
+  },
+  "faltas": {
+   "home": 19,
+   "away": 10
+  },
+  "offsides": {
+   "home": 1,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385564": {
+  "posesion": {
+   "home": 48,
+   "away": 52
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 2
+  },
+  "corners": {
+   "home": 3,
+   "away": 8
+  },
+  "faltas": {
+   "home": 8,
+   "away": 10
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385642": {
+  "posesion": {
+   "home": 47,
+   "away": 53
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 3
+  },
+  "faltas": {
+   "home": 13,
+   "away": 9
+  },
+  "offsides": {
+   "home": 6,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385736": {
+  "posesion": {
+   "home": 57,
+   "away": 43
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 3
+  },
+  "faltas": {
+   "home": 12,
+   "away": 10
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385814": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 1
+  },
+  "corners": {
+   "home": 1,
+   "away": 3
+  },
+  "faltas": {
+   "home": 11,
+   "away": 11
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69385888": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 5
+  },
+  "faltas": {
+   "home": 9,
+   "away": 4
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 0,
+   "away": 5
+  },
+  "rojas": {
+   "home": 2,
+   "away": 2
+  }
+ },
+ "69834302": {
+  "posesion": {
+   "home": 49,
+   "away": 51
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 5
+  },
+  "corners": {
+   "home": 6,
+   "away": 3
+  },
+  "faltas": {
+   "home": 12,
+   "away": 11
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834304": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 6
+  },
+  "faltas": {
+   "home": 17,
+   "away": 6
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834306": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 0
+  },
+  "faltas": {
+   "home": 12,
+   "away": 11
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834308": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 2,
+   "away": 7
+  },
+  "faltas": {
+   "home": 10,
+   "away": 15
+  },
+  "offsides": {
+   "home": 4,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834310": {
+  "posesion": {
+   "home": 44,
+   "away": 56
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 5
+  },
+  "faltas": {
+   "home": 8,
+   "away": 14
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834312": {
+  "posesion": {
+   "home": 79,
+   "away": 21
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 2
+  },
+  "faltas": {
+   "home": 17,
+   "away": 7
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 7
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "69834314": {
+  "posesion": {
+   "home": 59,
+   "away": 41
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 9,
+   "away": 3
+  },
+  "faltas": {
+   "home": 10,
+   "away": 8
+  },
+  "offsides": {
+   "home": 1,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834316": {
+  "posesion": {
+   "home": 57,
+   "away": 43
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 10,
+   "away": 1
+  },
+  "faltas": {
+   "home": 11,
+   "away": 16
+  },
+  "offsides": {
+   "home": 3,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834318": {
+  "posesion": {
+   "home": 47,
+   "away": 53
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 0,
+   "away": 6
+  },
+  "faltas": {
+   "home": 4,
+   "away": 3
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834320": {
+  "posesion": {
+   "home": 66,
+   "away": 34
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 6
+  },
+  "faltas": {
+   "home": 12,
+   "away": 14
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834322": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 7,
+   "away": 3
+  },
+  "faltas": {
+   "home": 17,
+   "away": 7
+  },
+  "offsides": {
+   "home": 4,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834324": {
+  "posesion": {
+   "home": 58,
+   "away": 42
+  },
+  "tiros_arco": {
+   "home": 7,
+   "away": 6
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 9,
+   "away": 4
+  },
+  "faltas": {
+   "home": 12,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834326": {
+  "posesion": {
+   "home": 30,
+   "away": 70
+  },
+  "tiros_arco": {
+   "home": 8,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 6
+  },
+  "faltas": {
+   "home": 20,
+   "away": 9
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834328": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 2
+  },
+  "corners": {
+   "home": 1,
+   "away": 6
+  },
+  "faltas": {
+   "home": 8,
+   "away": 10
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834330": {
+  "posesion": {
+   "home": 56,
+   "away": 44
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 2
+  },
+  "faltas": {
+   "home": 17,
+   "away": 11
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "69834332": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 3
+  },
+  "faltas": {
+   "home": 14,
+   "away": 16
+  },
+  "offsides": {
+   "home": 3,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 0,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834334": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 8
+  },
+  "faltas": {
+   "home": 11,
+   "away": 14
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "69834336": {
+  "posesion": {
+   "home": 63,
+   "away": 37
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 0
+  },
+  "faltas": {
+   "home": 10,
+   "away": 11
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834344": {
+  "posesion": {
+   "home": 56,
+   "away": 44
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 15,
+   "away": 12
+  },
+  "offsides": {
+   "home": 3,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834340": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 0
+  },
+  "faltas": {
+   "home": 8,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 5
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834346": {
+  "posesion": {
+   "home": 40,
+   "away": 60
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 2
+  },
+  "corners": {
+   "home": 0,
+   "away": 1
+  },
+  "faltas": {
+   "home": 12,
+   "away": 16
+  },
+  "offsides": {
+   "home": 4,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "69834348": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 7
+  },
+  "faltas": {
+   "home": 9,
+   "away": 11
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 7
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70398324": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 4,
+   "away": 4
+  },
+  "corners": {
+   "home": 6,
+   "away": 6
+  },
+  "faltas": {
+   "home": 7,
+   "away": 11
+  },
+  "offsides": {
+   "home": 3,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70398322": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 9
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 2
+  },
+  "corners": {
+   "home": 6,
+   "away": 4
+  },
+  "faltas": {
+   "home": 9,
+   "away": 15
+  },
+  "offsides": {
+   "home": 2,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263070": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 7,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 9
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 2
+  },
+  "corners": {
+   "home": 4,
+   "away": 6
+  },
+  "faltas": {
+   "home": 11,
+   "away": 9
+  },
+  "offsides": {
+   "home": 0,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263072": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 0
+  },
+  "faltas": {
+   "home": 11,
+   "away": 17
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263074": {
+  "posesion": {
+   "home": 39,
+   "away": 61
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 6
+  },
+  "faltas": {
+   "home": 16,
+   "away": 16
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263076": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 9
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 5
+  },
+  "corners": {
+   "home": 9,
+   "away": 2
+  },
+  "faltas": {
+   "home": 15,
+   "away": 3
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263078": {
+  "posesion": {
+   "home": 48,
+   "away": 52
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 3
+  },
+  "faltas": {
+   "home": 12,
+   "away": 11
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263080": {
+  "posesion": {
+   "home": 36,
+   "away": 64
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 4
+  },
+  "faltas": {
+   "home": 8,
+   "away": 8
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263082": {
+  "posesion": {
+   "home": 41,
+   "away": 59
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 7
+  },
+  "faltas": {
+   "home": 9,
+   "away": 21
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 6,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263084": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 1
+  },
+  "faltas": {
+   "home": 12,
+   "away": 9
+  },
+  "offsides": {
+   "home": 4,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 7
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70263086": {
+  "posesion": {
+   "home": 41,
+   "away": 59
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 5
+  },
+  "corners": {
+   "home": 4,
+   "away": 5
+  },
+  "faltas": {
+   "home": 13,
+   "away": 8
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263088": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 8,
+   "away": 5
+  },
+  "faltas": {
+   "home": 7,
+   "away": 9
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 1
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70263090": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 3
+  },
+  "faltas": {
+   "home": 14,
+   "away": 10
+  },
+  "offsides": {
+   "home": 5,
+   "away": 6
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 5
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263092": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 2
+  },
+  "corners": {
+   "home": 3,
+   "away": 4
+  },
+  "faltas": {
+   "home": 13,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "70263094": {
+  "posesion": {
+   "home": 51,
+   "away": 49
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 3,
+   "away": 2
+  },
+  "faltas": {
+   "home": 11,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263096": {
+  "posesion": {
+   "home": 61,
+   "away": 39
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 4
+  },
+  "faltas": {
+   "home": 16,
+   "away": 15
+  },
+  "offsides": {
+   "home": 2,
+   "away": 8
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263098": {
+  "posesion": {
+   "home": 29,
+   "away": 71
+  },
+  "tiros_arco": {
+   "home": 0,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 7
+  },
+  "faltas": {
+   "home": 9,
+   "away": 11
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70263100": {
+  "posesion": {
+   "home": 66,
+   "away": 34
+  },
+  "tiros_arco": {
+   "home": 7,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 2
+  },
+  "corners": {
+   "home": 9,
+   "away": 2
+  },
+  "faltas": {
+   "home": 13,
+   "away": 11
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629740": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 2
+  },
+  "faltas": {
+   "home": 11,
+   "away": 7
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "70629742": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 5
+  },
+  "faltas": {
+   "home": 9,
+   "away": 20
+  },
+  "offsides": {
+   "home": 2,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629744": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 4
+  },
+  "faltas": {
+   "home": 14,
+   "away": 14
+  },
+  "offsides": {
+   "home": 0,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629746": {
+  "posesion": {
+   "home": 44,
+   "away": 56
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 9
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 2
+  },
+  "corners": {
+   "home": 3,
+   "away": 7
+  },
+  "faltas": {
+   "home": 4,
+   "away": 8
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629748": {
+  "posesion": {
+   "home": 46,
+   "away": 54
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 2
+  },
+  "corners": {
+   "home": 1,
+   "away": 7
+  },
+  "faltas": {
+   "home": 11,
+   "away": 6
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629750": {
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 3
+  },
+  "faltas": {
+   "home": 14,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70629752": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 3
+  },
+  "corners": {
+   "home": 2,
+   "away": 4
+  },
+  "faltas": {
+   "home": 9,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70629754": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 2,
+   "away": 4
+  },
+  "faltas": {
+   "home": 13,
+   "away": 18
+  },
+  "offsides": {
+   "home": 6,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893148": {
+  "posesion": {
+   "home": 47,
+   "away": 53
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 5
+  },
+  "faltas": {
+   "home": 9,
+   "away": 9
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893150": {
+  "tiros_arco": {
+   "home": 6,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 3
+  },
+  "faltas": {
+   "home": 6,
+   "away": 10
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893152": {
+  "posesion": {
+   "home": 60,
+   "away": 40
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 2
+  },
+  "corners": {
+   "home": 2,
+   "away": 5
+  },
+  "faltas": {
+   "home": 5,
+   "away": 16
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893154": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 10,
+   "away": 3
+  },
+  "faltas": {
+   "home": 6,
+   "away": 14
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70893156": {
+  "posesion": {
+   "home": 49,
+   "away": 51
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 1
+  },
+  "faltas": {
+   "home": 19,
+   "away": 12
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 6
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70893158": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 3
+  },
+  "corners": {
+   "home": 2,
+   "away": 2
+  },
+  "faltas": {
+   "home": 9,
+   "away": 14
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893160": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 4
+  },
+  "faltas": {
+   "home": 14,
+   "away": 19
+  },
+  "offsides": {
+   "home": 5,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893162": {
+  "posesion": {
+   "home": 70,
+   "away": 30
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 4,
+   "away": 1
+  },
+  "corners": {
+   "home": 7,
+   "away": 5
+  },
+  "faltas": {
+   "home": 17,
+   "away": 13
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893164": {
+  "tiros_arco": {
+   "home": 8,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 3
+  },
+  "faltas": {
+   "home": 21,
+   "away": 13
+  },
+  "offsides": {
+   "home": 3,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 5
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "70893166": {
+  "posesion": {
+   "home": 42,
+   "away": 58
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 1,
+   "away": 11
+  },
+  "faltas": {
+   "home": 16,
+   "away": 17
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893168": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 4
+  },
+  "faltas": {
+   "home": 9,
+   "away": 12
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "70893170": {
+  "posesion": {
+   "home": 56,
+   "away": 44
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 9,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 9,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 3
+  },
+  "faltas": {
+   "home": 12,
+   "away": 16
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893172": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 14
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 12,
+   "away": 15
+  },
+  "offsides": {
+   "home": 4,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893174": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 5
+  },
+  "faltas": {
+   "home": 15,
+   "away": 9
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 1,
+   "away": 1
+  }
+ },
+ "70893176": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 1,
+   "away": 9
+  },
+  "faltas": {
+   "home": 11,
+   "away": 9
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "70893178": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 8
+  },
+  "faltas": {
+   "home": 3,
+   "away": 8
+  },
+  "offsides": {
+   "home": 3,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 6,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311210": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 3
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 14,
+   "away": 14
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311298": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 5
+  },
+  "faltas": {
+   "home": 15,
+   "away": 18
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311300": {
+  "posesion": {
+   "home": 47,
+   "away": 53
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 3,
+   "away": 2
+  },
+  "faltas": {
+   "home": 11,
+   "away": 8
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311302": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 10
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 3
+  },
+  "faltas": {
+   "home": 9,
+   "away": 4
+  },
+  "offsides": {
+   "home": 3,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 5
+  },
+  "rojas": {
+   "home": 1,
+   "away": 1
+  }
+ },
+ "71311314": {
+  "posesion": {
+   "home": 61,
+   "away": 39
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 4
+  },
+  "faltas": {
+   "home": 14,
+   "away": 10
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311316": {
+  "tiros_arco": {
+   "home": 8,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 0
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 2
+  },
+  "faltas": {
+   "home": 13,
+   "away": 23
+  },
+  "offsides": {
+   "home": 1,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311318": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 2,
+   "away": 1
+  },
+  "corners": {
+   "home": 7,
+   "away": 4
+  },
+  "faltas": {
+   "home": 4,
+   "away": 10
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71311376": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 6
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 3
+  },
+  "corners": {
+   "home": 1,
+   "away": 4
+  },
+  "faltas": {
+   "home": 9,
+   "away": 11
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71459872": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 3,
+   "away": 7
+  },
+  "faltas": {
+   "home": 11,
+   "away": 13
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71459876": {
+  "posesion": {
+   "home": 57,
+   "away": 43
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 2
+  },
+  "corners": {
+   "home": 7,
+   "away": 3
+  },
+  "faltas": {
+   "home": 17,
+   "away": 15
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71459878": {
+  "tiros_arco": {
+   "home": 5,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 12,
+   "away": 14
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71459880": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 2
+  },
+  "faltas": {
+   "home": 9,
+   "away": 10
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71459998": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 0,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 5
+  },
+  "faltas": {
+   "home": 11,
+   "away": 9
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71460000": {
+  "posesion": {
+   "home": 46,
+   "away": 54
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 1
+  },
+  "faltas": {
+   "home": 11,
+   "away": 19
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71460002": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 7
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 4
+  },
+  "faltas": {
+   "home": 7,
+   "away": 14
+  },
+  "offsides": {
+   "home": 4,
+   "away": 3
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71460006": {
+  "posesion": {
+   "home": 48,
+   "away": 52
+  },
+  "tiros_arco": {
+   "home": 8,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 9
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 1
+  },
+  "faltas": {
+   "home": 11,
+   "away": 17
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "71477176": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 7
+  },
+  "faltas": {
+   "home": 18,
+   "away": 19
+  },
+  "offsides": {
+   "home": 0,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 6,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71477184": {
+  "posesion": {
+   "home": 25,
+   "away": 75
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 0,
+   "away": 2
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 6
+  },
+  "faltas": {
+   "home": 14,
+   "away": 11
+  },
+  "offsides": {
+   "home": 1,
+   "away": 4
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 7,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71477178": {
+  "posesion": {
+   "home": 45,
+   "away": 55
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 3
+  },
+  "corners": {
+   "home": 1,
+   "away": 4
+  },
+  "faltas": {
+   "home": 7,
+   "away": 3
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "71477186": {
+  "posesion": {
+   "home": 67,
+   "away": 33
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 13,
+   "away": 0
+  },
+  "faltas": {
+   "home": 13,
+   "away": 13
+  },
+  "offsides": {
+   "home": 0,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 6
+  },
+  "rojas": {
+   "home": 1,
+   "away": 1
+  }
+ },
+ "71477180": {
+  "posesion": {
+   "home": 46,
+   "away": 54
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 4
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 4
+  },
+  "faltas": {
+   "home": 11,
+   "away": 17
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71477188": {
+  "posesion": {
+   "home": 49,
+   "away": 51
+  },
+  "tiros_arco": {
+   "home": 2,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 6
+  },
+  "faltas": {
+   "home": 12,
+   "away": 14
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71477182": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 8,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 3
+  },
+  "faltas": {
+   "home": 10,
+   "away": 11
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71736920": {
+  "posesion": {
+   "home": 65,
+   "away": 35
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 0
+  },
+  "tiros_fuera": {
+   "home": 9,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 3,
+   "away": 1
+  },
+  "corners": {
+   "home": 5,
+   "away": 1
+  },
+  "faltas": {
+   "home": 9,
+   "away": 9
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 1
+  }
+ },
+ "71737034": {
+  "posesion": {
+   "home": 50,
+   "away": 50
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 0
+  },
+  "corners": {
+   "home": 10,
+   "away": 1
+  },
+  "faltas": {
+   "home": 4,
+   "away": 12
+  },
+  "offsides": {
+   "home": 0,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 0,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71737036": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 6
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 3,
+   "away": 7
+  },
+  "faltas": {
+   "home": 10,
+   "away": 16
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71737086": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 2,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 11
+  },
+  "faltas": {
+   "home": 13,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 2,
+   "away": 0
+  }
+ },
+ "71737090": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 8
+  },
+  "tiros_fuera": {
+   "home": 0,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 1
+  },
+  "corners": {
+   "home": 0,
+   "away": 6
+  },
+  "faltas": {
+   "home": 15,
+   "away": 18
+  },
+  "offsides": {
+   "home": 0,
+   "away": 5
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 1,
+   "away": 0
+  }
+ },
+ "71737092": {
+  "posesion": {
+   "home": 49,
+   "away": 51
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 3,
+   "away": 8
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 4
+  },
+  "corners": {
+   "home": 7,
+   "away": 7
+  },
+  "faltas": {
+   "home": 17,
+   "away": 15
+  },
+  "offsides": {
+   "home": 1,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71737152": {
+  "posesion": {
+   "home": 42,
+   "away": 58
+  },
+  "tiros_arco": {
+   "home": 5,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 1,
+   "away": 1
+  },
+  "corners": {
+   "home": 2,
+   "away": 5
+  },
+  "faltas": {
+   "home": 12,
+   "away": 17
+  },
+  "offsides": {
+   "home": 0,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 5,
+   "away": 6
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71737154": {
+  "posesion": {
+   "home": 61,
+   "away": 39
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 2
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 6,
+   "away": 3
+  },
+  "faltas": {
+   "home": 5,
+   "away": 10
+  },
+  "offsides": {
+   "home": 3,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 3,
+   "away": 2
+  },
+  "rojas": {
+   "home": 2,
+   "away": 0
+  }
+ },
+ "71750078": {
+  "posesion": {
+   "home": 55,
+   "away": 45
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 7,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 2,
+   "away": 8
+  },
+  "faltas": {
+   "home": 6,
+   "away": 6
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750186": {
+  "tiros_arco": {
+   "home": 2,
+   "away": 6
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 5
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 0,
+   "away": 10
+  },
+  "faltas": {
+   "home": 12,
+   "away": 7
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750080": {
+  "tiros_arco": {
+   "home": 4,
+   "away": 5
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 1
+  },
+  "faltas": {
+   "home": 6,
+   "away": 11
+  },
+  "offsides": {
+   "home": 1,
+   "away": 0
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 1
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750086": {
+  "posesion": {
+   "home": 37,
+   "away": 63
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 1,
+   "away": 1
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 4,
+   "away": 3
+  },
+  "faltas": {
+   "home": 15,
+   "away": 8
+  },
+  "offsides": {
+   "home": 1,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 6,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750182": {
+  "tiros_arco": {
+   "home": 3,
+   "away": 4
+  },
+  "tiros_fuera": {
+   "home": 6,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 7,
+   "away": 4
+  },
+  "faltas": {
+   "home": 10,
+   "away": 13
+  },
+  "offsides": {
+   "home": 5,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 3
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750188": {
+  "posesion": {
+   "home": 42,
+   "away": 58
+  },
+  "tiros_arco": {
+   "home": 1,
+   "away": 3
+  },
+  "tiros_fuera": {
+   "home": 4,
+   "away": 9
+  },
+  "tiros_bloqueados": {
+   "home": 5,
+   "away": 2
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 10,
+   "away": 14
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 2,
+   "away": 0
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750192": {
+  "posesion": {
+   "home": 53,
+   "away": 47
+  },
+  "tiros_arco": {
+   "home": 6,
+   "away": 8
+  },
+  "tiros_fuera": {
+   "home": 11,
+   "away": 6
+  },
+  "tiros_bloqueados": {
+   "home": 6,
+   "away": 5
+  },
+  "corners": {
+   "home": 4,
+   "away": 4
+  },
+  "faltas": {
+   "home": 10,
+   "away": 7
+  },
+  "offsides": {
+   "home": 2,
+   "away": 2
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 4,
+   "away": 2
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ },
+ "71750194": {
+  "posesion": {
+   "home": 52,
+   "away": 48
+  },
+  "tiros_arco": {
+   "home": 3,
+   "away": 1
+  },
+  "tiros_fuera": {
+   "home": 5,
+   "away": 3
+  },
+  "tiros_bloqueados": {
+   "home": 0,
+   "away": 0
+  },
+  "corners": {
+   "home": 5,
+   "away": 1
+  },
+  "faltas": {
+   "home": 13,
+   "away": 5
+  },
+  "offsides": {
+   "home": 2,
+   "away": 1
+  },
+  "atajadas": {
+   "home": 0,
+   "away": 0
+  },
+  "amarillas": {
+   "home": 1,
+   "away": 4
+  },
+  "rojas": {
+   "home": 0,
+   "away": 0
+  }
+ }
+}

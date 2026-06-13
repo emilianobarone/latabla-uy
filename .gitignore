@@ -1,0 +1,12 @@
+# Artefactos de la investigación inicial (no van al repo público)
+explore_stats*.py
+exploracion*.json
+test_playerfacts.json
+feed_*.json
+config_tree.json
+
+# Navegador / Python
+.browser-profile/
+__pycache__/
+*.pyc
+.DS_Store

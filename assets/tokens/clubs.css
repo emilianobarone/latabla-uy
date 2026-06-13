@@ -1,0 +1,36 @@
+/* ============================================================
+   LaTabla.uy — Colores de club
+   No hay escudos: la identidad visual de cada equipo se
+   resuelve con monogramas tipográficos sobre su color.
+   Cada club define --club-<slug>-bg / -fg / -ring.
+   El ring se usa cuando el fondo es claro (camisetas blancas).
+   ============================================================ */
+
+:root {
+  --club-penarol-bg: #FFD100;  --club-penarol-fg: #1A1A1A;  --club-penarol-ring: transparent;
+  --club-nacional-bg: #FFFFFF; --club-nacional-fg: #003876; --club-nacional-ring: #C8102E;
+  --club-defensor-bg: #5B2D8E; --club-defensor-fg: #FFFFFF; --club-defensor-ring: transparent;
+  --club-danubio-bg: #FFFFFF;  --club-danubio-fg: #1A1A1A;  --club-danubio-ring: #1A1A1A;
+  --club-liverpool-bg: #1D3C6E;--club-liverpool-fg: #FFFFFF;--club-liverpool-ring: transparent;
+  --club-river-bg: #D03A3F;    --club-river-fg: #FFFFFF;    --club-river-ring: transparent;
+  --club-racing-bg: #1D8348;   --club-racing-fg: #FFFFFF;   --club-racing-ring: transparent;
+  --club-wanderers-bg: #2B2B2B;--club-wanderers-fg: #FFFFFF;--club-wanderers-ring: transparent;
+  --club-cerro-bg: #4FA3DC;    --club-cerro-fg: #FFFFFF;    --club-cerro-ring: transparent;
+  --club-boston-bg: #1E7A46;   --club-boston-fg: #FFFFFF;   --club-boston-ring: #C8102E;
+  --club-cerrolargo-bg: #2E5FA3;--club-cerrolargo-fg: #FFFFFF;--club-cerrolargo-ring: transparent;
+  --club-plaza-bg: #ECF0F4;    --club-plaza-fg: #333D49;    --club-plaza-ring: #333D49;
+  --club-progreso-bg: #E8B100; --club-progreso-fg: #8E2227; --club-progreso-ring: transparent;
+  --club-juventud-bg: #A32830; --club-juventud-fg: #FFFFFF; --club-juventud-ring: transparent;
+  --club-miramar-bg: #4B4F54;  --club-miramar-fg: #FFFFFF;  --club-miramar-ring: #FFFFFF;
+  --club-torque-bg: #6CABDD;   --club-torque-fg: #FFFFFF;   --club-torque-ring: transparent;
+
+  /* Clubes agregados para el plantel real de Primera 2026 */
+  --club-maldonado-bg: #1E8449; --club-maldonado-fg: #FFFFFF; --club-maldonado-ring: transparent;
+  --club-albion-bg: #C8102E;    --club-albion-fg: #FFFFFF;    --club-albion-ring: transparent;
+  --club-central-bg: #E03A3E;   --club-central-fg: #FFFFFF;   --club-central-ring: transparent;
+
+  /* Fallback para equipos sin color asignado (Segunda División, etc.) */
+  --club-default-bg: var(--gris-200);
+  --club-default-fg: var(--gris-700);
+  --club-default-ring: transparent;
+}

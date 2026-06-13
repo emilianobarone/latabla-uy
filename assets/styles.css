@@ -1,0 +1,7 @@
+/* Entrada global — importa los tokens del design system y los estilos de la app */
+@import url('tokens/typography.css');
+@import url('tokens/colors.css');
+@import url('tokens/clubs.css');
+@import url('tokens/spacing.css');
+@import url('tokens/base.css');
+@import url('app.css');

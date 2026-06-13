@@ -1,0 +1,35 @@
+/* ============================================================
+   LaTabla.uy — Tipografía
+   Una sola familia: Archivo (Google Fonts). Grotesca neutra
+   con buen rango de pesos y cifras tabulares para tablas.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-sans: 'Archivo', -apple-system, 'Segoe UI', system-ui, sans-serif;
+
+  /* Tamaños (mobile-first; base de lectura 15px) */
+  --fs-caption: 12px;   /* metadatos, "Actualizado:" */
+  --fs-small:   13px;   /* celdas secundarias, stats menores */
+  --fs-body:    15px;   /* texto y celdas base */
+  --fs-lead:    17px;   /* nombres destacados, marcadores */
+  --fs-h3:      19px;   /* título de card / fecha */
+  --fs-h2:      23px;   /* título de vista */
+  --fs-h1:      28px;
+  --fs-display: 38px;   /* cifras protagonistas (goles del líder) */
+
+  /* Pesos */
+  --fw-regular:  400; /* @kind font */
+  --fw-medium:   500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold:     700; /* @kind font */
+  --fw-black:    800; /* @kind font */ /* wordmark, marcadores, posiciones */
+
+  /* Interlineado */
+  --lh-tight:  1.15; /* @kind font */ /* cifras y títulos */
+  --lh-normal: 1.45; /* @kind font */ /* texto corrido */
+
+  /* Tracking */
+  --ls-caps: 0.06em;  /* etiquetas en mayúsculas (PJ, GF, PTS) */
+}

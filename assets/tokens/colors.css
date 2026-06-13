@@ -1,0 +1,76 @@
+/* ============================================================
+   LaTabla.uy — Colores (tema único: verde cancha, oscuro)
+   Inspirado en una cancha de fútbol de noche: verdes profundos
+   + blanco. Un solo acento verde césped (no muy claro). Sin modo
+   claro. Verde/rojo solo con significado de resultado.
+   ============================================================ */
+
+:root {
+  /* ---- Verde de marca (acento) ---- */
+  --verde-100: #DCEDE2;
+  --verde-200: #A9D2B9;
+  --verde-300: #6FB389;
+  --verde-400: #4C9E6E; /* acento principal — verde césped */
+  --verde-500: #3D8A5E;
+  --verde-600: #2F6E4A;
+  --verde-700: #234F36;
+  --verde-800: #16331f; /* superficies de marca suaves */
+  --verde-900: #0A1B11;
+
+  /* ---- Neutrales (grises con tinte verde, base oscura) ---- */
+  --gris-0:   #16271D; /* superficie más clara (cards) */
+  --gris-25:  #13231A;
+  --gris-50:  #0F1E16; /* fondo de página */
+  --gris-100: #20342A; /* bordes suaves */
+  --gris-200: #2A4234;
+  --gris-300: #3A5446;
+  --gris-400: #5E7666;
+  --gris-500: #7E9488;
+  --gris-600: #9DB1A4;
+  --gris-700: #C3D2C9;
+  --gris-800: #DDE8E1;
+  --gris-900: #EEF4F0;
+
+  /* ---- Resultado (racha G / E / P) ---- */
+  --resultado-g:       #46B873; /* victoria — verde brillante, distinto del acento */
+  --resultado-g-suave: #16331F;
+  --resultado-e:       #7E9488; /* empate — gris */
+  --resultado-e-suave: #1E2E26;
+  --resultado-p:       #D85F63; /* derrota — rojo apagado */
+  --resultado-p-suave: #331E20;
+
+  /* ---- Zonas de tabla ---- */
+  --zona-lider:         #54C083;
+  --zona-lider-suave:   #16331F;
+  --zona-copa:          var(--verde-400);
+  --zona-copa-suave:    #14291C;
+  --zona-descenso:      #D85F63;
+  --zona-descenso-suave:#331E20;
+
+  /* ---- Alias semánticos (usar estos en componentes) ---- */
+  --bg-page:        var(--gris-50);
+  --bg-header:      var(--verde-900);
+  --surface-card:   var(--gris-0);
+  --surface-sunken: var(--gris-25);
+  --surface-hover:  var(--gris-100);
+  --surface-row-alt:var(--gris-25);
+
+  --border-soft:    var(--gris-100);
+  --border-row:     var(--gris-100);
+  --border-strong:  var(--gris-200);
+
+  --text-strong:    var(--gris-900);
+  --text-body:      var(--gris-700);
+  --text-muted:     var(--gris-500);
+  --text-faint:     var(--gris-400);
+  --text-inverse:   #FFFFFF;
+  --text-inverse-muted: #9DBCAA;
+
+  --accent:         var(--verde-400);
+  --accent-strong:  var(--verde-300);
+  --accent-soft:    var(--verde-800);
+  --link:           var(--verde-300);
+  --focus-ring:     var(--verde-400);
+}
+
+::selection { background: var(--verde-700); color: #fff; }
