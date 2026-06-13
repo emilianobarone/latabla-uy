@@ -22,6 +22,7 @@ import sys
 import time
 import unicodedata
 import urllib.request
+from difflib import SequenceMatcher
 from html import unescape
 from pathlib import Path
 
@@ -99,8 +100,27 @@ def parse_kader(html: str) -> list[tuple[str, int]]:
     return jugadores
 
 
+def tokens_en_comun(set1: set[str], set2: set[str]) -> int:
+    """Cuenta tokens compartidos tolerando variantes de tipeo (Petrik/Petryk).
+    Asigna cada token de un lado al mejor del otro (una sola vez)."""
+    s2 = list(set2)
+    usados, n = set(), 0
+    for t in set1:
+        mejor, mejor_i = 0.0, None
+        for i, u in enumerate(s2):
+            if i in usados:
+                continue
+            r = 1.0 if t == u else SequenceMatcher(None, t, u).ratio()
+            if r > mejor:
+                mejor, mejor_i = r, i
+        if mejor >= 0.82:   # iguales o casi (1 letra de diferencia en un apellido)
+            n += 1
+            usados.add(mejor_i)
+    return n
+
+
 def emparejar(nuestros: list[dict], tm: list[tuple[str, int]]) -> dict:
-    """Empareja UNO-A-UNO por solapamiento de tokens dentro del club.
+    """Empareja UNO-A-UNO por solapamiento de tokens (difuso) dentro del club.
     Cada jugador de Transfermarkt se usa una sola vez. Devuelve {id_jugador: valor}."""
     tm_list = [(tokens(n), v) for n, v in tm if v is not None]
     # Candidatos (score, id_nuestro, indice_tm, valor) que superan el umbral.
@@ -108,7 +128,7 @@ def emparejar(nuestros: list[dict], tm: list[tuple[str, int]]) -> dict:
     for j in nuestros:
         jt = tokens(j["nombre"])
         for idx, (tt, val) in enumerate(tm_list):
-            inter = len(jt & tt)
+            inter = tokens_en_comun(jt, tt)
             if inter == 0:
                 continue
             score = inter / max(len(jt), len(tt))

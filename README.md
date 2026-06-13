@@ -54,7 +54,12 @@ cobertura de Sportradar), y el campo `started` (titularidades) es poco confiable
 - `data/primera.json` — tablas + fixture normalizados. Cada partido trae el
   `torneo` (Apertura / Intermedio / Clausura), detectado por el `_tid`.
 - `data/jugadores_primera.json` — 16 planteles con stats por jugador + rankings
-  de goleadores.
+  de goleadores. El campo `valor_tm` (valor de mercado de Transfermarkt) lo
+  agrega `fetch_transfermarkt.py`.
+- `fetch_transfermarkt.py` — enriquece los planteles con el valor de mercado de
+  transfermarkt.es (Sportradar solo trae ~5%). Baja el plantel de cada club y
+  empareja por nombre uno-a-uno dentro del club (~80% de cobertura). Correr
+  DESPUÉS de `fetch_stats.py`. La UI prioriza `valor_tm` sobre el de Sportradar.
 - `data/partidos_primera.json` — detalle por partido jugado (posesión, tiros,
   córners, faltas, offsides, tarjetas). Una llamada `match_details` por partido;
   es lo más lento del run (se puede saltar con `--sin-detalle`).

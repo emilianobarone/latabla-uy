@@ -182,7 +182,8 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 125000
     },
     {
      "id": 2261837,
@@ -285,7 +286,8 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 450000
     },
     {
      "id": 2184792,
@@ -9642,7 +9644,8 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 75000
     },
     {
      "id": 803616,
