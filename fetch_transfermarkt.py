@@ -93,7 +93,12 @@ def parse_kader(html: str) -> list[tuple[str, int]]:
         if not mnom:
             continue
         nombre = unescape(mnom.group(1)).strip()
-        mval = re.search(r'([\d.,]+\s*(?:mill\.|mil)\s*€)', fila)
+        # El valor de mercado es la celda dedicada `rechts hauptlink`, NO el
+        # primer número con "€" del chunk (puede haber valores extra: récord
+        # histórico, etc.).
+        mval = re.search(
+            r'class="rechts hauptlink"[^>]*>\s*(?:<a[^>]*>)?\s*([\d.,]+\s*(?:mill\.|mil)\s*€)',
+            fila)
         valor = valor_a_euros(mval.group(1)) if mval else None
         if nombre:
             jugadores.append((nombre, valor))
