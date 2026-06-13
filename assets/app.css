@@ -441,6 +441,7 @@ table.standings {
 .player-detail__item { font-size: var(--fs-small); }
 .player-detail__item span { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: var(--ls-caps); color: var(--text-faint); margin-bottom: 1px; }
 .player-detail__item b { font-weight: var(--fw-semibold); color: var(--text-strong); font-variant-numeric: tabular-nums; }
+.tm-link { font-size: 9px; font-weight: var(--fw-semibold); letter-spacing: 0; text-transform: none; }
 
 /* ---------- Goleadores ---------- */
 .scorer-row {

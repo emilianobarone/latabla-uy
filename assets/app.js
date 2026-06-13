@@ -504,7 +504,7 @@ function playerRow(j, idx) {
     <div class="player-detail__item"><span>Altura</span><b>${fmtAltura(j.altura)}</b></div>
     <div class="player-detail__item"><span>Pie</span><b>${esc(j.pie || '—')}</b></div>
     <div class="player-detail__item"><span>Nacionalidad</span><b>${esc(j.nacionalidad || '—')}</b></div>
-    <div class="player-detail__item"><span>Valor</span><b>${fmtValor(valor)}</b></div>
+    <div class="player-detail__item"><span>Valor${j.tm_id ? ' <a class="tm-link" href="https://www.transfermarkt.es/x/profil/spieler/' + j.tm_id + '" target="_blank" rel="noopener">ver ↗</a>' : ''}</span><b>${fmtValor(valor)}</b></div>
     <div class="player-detail__item"><span>Minutos</span><b class="tnum">${j.minutos || 0}′</b></div>
     <div class="player-detail__item"><span>Tiros</span><b class="tnum">${j.tiros || 0}</b></div>
     <div class="player-detail__item"><span>Al arco</span><b class="tnum">${j.tiros_al_arco || 0}</b></div>

@@ -82,26 +82,27 @@ def fetch_html(url: str) -> str:
         return r.read().decode("utf-8", "replace")
 
 
-def parse_kader(html: str) -> list[tuple[str, int]]:
-    """Devuelve [(nombre, valor_euros)] de la tabla de plantel."""
+def parse_kader(html: str) -> list[tuple[str, int, str]]:
+    """Devuelve [(nombre, valor_euros, spieler_id)] de la tabla de plantel."""
     jugadores = []
     # Cada fila de jugador empieza con un <td class="posrela"> que contiene
     # el link al perfil con el nombre. La cortamos en filas por ese marcador.
     filas = re.split(r'<td class="posrela">', html)
     for fila in filas[1:]:
+        mid = re.search(r'/profil/spieler/(\d+)', fila)
         mnom = re.search(r'/profil/spieler/\d+"[^>]*>([^<]+)</a>', fila)
-        if not mnom:
+        if not mnom or not mid:
             continue
         nombre = unescape(mnom.group(1)).strip()
         # El valor de mercado es la celda dedicada `rechts hauptlink`, NO el
         # primer número con "€" del chunk (puede haber valores extra: récord
-        # histórico, etc.).
+        # histórico, etc.). Lo verificamos contra la página de perfil: coincide.
         mval = re.search(
             r'class="rechts hauptlink"[^>]*>\s*(?:<a[^>]*>)?\s*([\d.,]+\s*(?:mill\.|mil)\s*€)',
             fila)
         valor = valor_a_euros(mval.group(1)) if mval else None
         if nombre:
-            jugadores.append((nombre, valor))
+            jugadores.append((nombre, valor, mid.group(1)))
     return jugadores
 
 
@@ -124,27 +125,28 @@ def tokens_en_comun(set1: set[str], set2: set[str]) -> int:
     return n
 
 
-def emparejar(nuestros: list[dict], tm: list[tuple[str, int]]) -> dict:
+def emparejar(nuestros: list[dict], tm: list[tuple[str, int, str]]) -> dict:
     """Empareja UNO-A-UNO por solapamiento de tokens (difuso) dentro del club.
-    Cada jugador de Transfermarkt se usa una sola vez. Devuelve {id_jugador: valor}."""
-    tm_list = [(tokens(n), v) for n, v in tm if v is not None]
-    # Candidatos (score, id_nuestro, indice_tm, valor) que superan el umbral.
+    Cada jugador de Transfermarkt se usa una sola vez.
+    Devuelve {id_jugador: (valor, spieler_id)}."""
+    tm_list = [(tokens(n), v, tid) for n, v, tid in tm if v is not None]
+    # Candidatos (score, id_nuestro, indice_tm, valor, tm_id) que superan el umbral.
     cands = []
     for j in nuestros:
         jt = tokens(j["nombre"])
-        for idx, (tt, val) in enumerate(tm_list):
+        for idx, (tt, val, tid) in enumerate(tm_list):
             inter = tokens_en_comun(jt, tt)
             if inter == 0:
                 continue
             score = inter / max(len(jt), len(tt))
             if inter >= 2 or score >= 0.5:   # apellido+nombre, o mitad de tokens
-                cands.append((score, j["id"], idx, val))
+                cands.append((score, j["id"], idx, val, tid))
     cands.sort(key=lambda x: -x[0])
     res, usados_j, usados_tm = {}, set(), set()
-    for score, jid, idx, val in cands:
+    for score, jid, idx, val, tid in cands:
         if jid in usados_j or idx in usados_tm:
             continue
-        res[jid] = val
+        res[jid] = (val, tid)
         usados_j.add(jid)
         usados_tm.add(idx)
     return res
@@ -183,8 +185,10 @@ def main() -> int:
         valores = emparejar(eq["jugadores"], tm)
         n = 0
         for j in eq["jugadores"]:
-            if j["id"] in valores and valores[j["id"]]:
-                j["valor_tm"] = valores[j["id"]]
+            par = valores.get(j["id"])
+            if par and par[0]:
+                j["valor_tm"] = par[0]
+                j["tm_id"] = par[1]   # para verificar el valor en su perfil
                 n += 1
         total_match += n
         total_jug += len(eq["jugadores"])
