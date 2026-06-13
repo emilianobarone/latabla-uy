@@ -44,9 +44,9 @@ TORNEOS = {
 FASES = {
     57776: "Apertura",
     17126: "Clausura",
-    57777: "Intermedio",
-    60005: "Intermedio (Serie B)",
-    61457: "Intermedio (Final)",
+    57777: "Intermedio Grupo A",
+    60005: "Intermedio Grupo B",
+    61457: "Intermedio Final",
 }
 
 

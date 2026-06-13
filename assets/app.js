@@ -163,6 +163,28 @@ function fmtAltura(cm) {
   if (!cm) return '—';
   return (cm / 100).toFixed(2).replace('.', ',') + ' m';
 }
+// Temporada actual (cuando agreguemos años, esto pasa a ser dinámico).
+const TEMPORADA = '2026';
+
+/* Nombre amigable de una tabla de posiciones de Sportradar.
+   "Primera Division 2026, Apertura" -> "Apertura - 2026", etc. */
+function nombreTabla(nombre) {
+  const n = norm(nombre);
+  const anio = (nombre.match(/20\d{2}/) || [TEMPORADA])[0];
+  if (n.includes('apertura')) return `Apertura - ${anio}`;
+  if (n.includes('clausura')) return `Clausura - ${anio}`;
+  if (n.includes('overall') || n.includes('anual')) return `Anual - ${anio}`;
+  if (n.includes('group a')) return `Intermedio Grupo A - ${anio}`;
+  if (n.includes('group b')) return `Intermedio Grupo B - ${anio}`;
+  if (n.includes('intermedio')) return `Intermedio - ${anio}`;
+  return nombre;
+}
+
+/* Nombre amigable de un torneo de partido (fixture/resultados). */
+function nombreTorneo(torneo) {
+  return `${torneo} - ${TEMPORADA}`;
+}
+
 const DIAS = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
 function diaLabel(p) {
   if (p.uts) {
@@ -190,6 +212,7 @@ const state = {
   vista: 'tabla',
   tablaIdx: 0,
   equipoIdx: 0,
+  torneoResultados: null, // se fija al torneo en disputa en el primer render
 };
 const cache = {};      // torneo -> data
 const cacheJug = {};   // torneo -> jugadores
@@ -282,7 +305,7 @@ function vistaTabla(d) {
     <tbody>${filasHtml}</tbody>
   </table></div>${leyendaHtml}`;
 
-  return card({ title: tabla.nombre.replace('Overall', 'Tabla Anual'), flush: true, body });
+  return card({ title: nombreTabla(tabla.nombre), flush: true, body });
 }
 
 /* ---------------- agrupar partidos por torneo + fecha (ronda) y día ----------------
@@ -391,23 +414,51 @@ function bloquesPartidos(grupos) {
   }).join('');
 }
 
-/* ---------------- vista: Fixture ---------------- */
+/* ---------------- vista: Fixture ----------------
+   Solo partidos genuinamente futuros. Los partidos sin resultado cuya fecha
+   ya pasó (aplazados/sin cargar) se muestran aparte para no confundir. */
 function vistaFixture(d) {
+  const ahora = Date.now() / 1000;
   const pendientes = d.fixture.filter((p) => !p.jugado);
-  if (!pendientes.length) {
-    return card({ body: emptyState('Sin partidos pendientes', 'El fixture de la temporada ya se jugó por completo.') });
+  const futuros = pendientes.filter((p) => (p.uts || 0) >= ahora - 86400);
+  const aplazados = pendientes.filter((p) => (p.uts || 0) < ahora - 86400);
+
+  let html = '';
+  if (futuros.length) {
+    html += bloquesPartidos(agruparPorRonda(futuros, false));
+  } else {
+    html += card({
+      body: emptyState('No hay próximos partidos programados',
+        'El Apertura y el Intermedio ya se jugaron. Cuando la AUF publique el fixture del Clausura va a aparecer acá.'),
+    });
   }
-  const grupos = agruparPorRonda(pendientes, false);
-  return bloquesPartidos(grupos);
+  if (aplazados.length) {
+    const filas = aplazados
+      .sort((a, b) => (a.uts || 0) - (b.uts || 0))
+      .map(matchRow).join('');
+    html += card({
+      title: 'Pendientes de reprogramación',
+      accesorio: `<span class="badge">${aplazados.length}</span>`,
+      flush: true,
+      body: filas,
+    });
+  }
+  return html;
 }
 
-/* ---------------- vista: Resultados ---------------- */
+/* ---------------- vista: Resultados ----------------
+   Filtrados por torneo (selector). Por defecto, el torneo en disputa
+   (el de la última fecha con resultados). */
 function vistaResultados(d) {
   const jugados = d.fixture.filter((p) => p.jugado);
   if (!jugados.length) {
     return card({ body: emptyState('Sin resultados todavía', 'Cuando se jueguen los primeros partidos van a aparecer acá.') });
   }
-  const grupos = agruparPorRonda(jugados, true);
+  const torneos = torneosDeResultados(d);
+  if (!torneos.includes(state.torneoResultados)) state.torneoResultados = torneos[0];
+
+  const delTorneo = jugados.filter((p) => (p.torneo || 'Apertura') === state.torneoResultados);
+  const grupos = agruparPorRonda(delTorneo, true);
   return bloquesPartidos(grupos);
 }
 
@@ -635,11 +686,14 @@ async function selectores(d) {
   // Primera es el único torneo en estas versiones: no hay selector de división.
   let html = '';
   if (state.vista === 'tabla') {
-    const items = d.tablas.map((t, i) => ({
-      id: String(i),
-      label: t.nombre.replace(d.nombre + ', ', '').replace('Overall', 'Tabla Anual'),
-    }));
+    const items = d.tablas.map((t, i) => ({ id: String(i), label: nombreTabla(t.nombre) }));
     html += segmented(items, String(state.tablaIdx), 'tabla');
+  } else if (state.vista === 'resultados') {
+    const torneos = torneosDeResultados(d);
+    if (torneos.length > 1) {
+      const items = torneos.map((t) => ({ id: t, label: nombreTorneo(t) }));
+      html += segmented(items, state.torneoResultados, 'torneo-r');
+    }
   } else if (state.vista === 'planteles') {
     const jug = await cargarJug(state.torneo);
     if (jug && jug.equipos) {
@@ -648,6 +702,18 @@ async function selectores(d) {
     }
   }
   return html ? `<div class="selectores">${html}</div>` : '';
+}
+
+/* Lista de torneos presentes en los resultados, ordenados del más reciente
+   (por última fecha jugada) al más antiguo. */
+function torneosDeResultados(d) {
+  const ultimo = new Map();
+  for (const p of d.fixture) {
+    if (!p.jugado) continue;
+    const t = p.torneo || 'Apertura';
+    ultimo.set(t, Math.max(ultimo.get(t) || 0, p.uts || 0));
+  }
+  return [...ultimo.entries()].sort((a, b) => b[1] - a[1]).map(([t]) => t);
 }
 
 /* ---------------- render principal ---------------- */
@@ -700,6 +766,9 @@ document.addEventListener('click', (e) => {
   }
   const tabla = e.target.closest('[data-tabla]');
   if (tabla) { state.tablaIdx = Number(tabla.dataset.tabla); render(); return; }
+
+  const torneoR = e.target.closest('[data-torneo-r]');
+  if (torneoR) { state.torneoResultados = torneoR.dataset.torneoR; render(); return; }
 
   const equipo = e.target.closest('[data-equipo]');
   if (equipo) { state.equipoIdx = Number(equipo.dataset.equipo); render(); return; }
