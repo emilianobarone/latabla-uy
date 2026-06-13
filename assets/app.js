@@ -493,14 +493,18 @@ function playerRow(j, idx) {
   const cards = [];
   if (j.amarillas) cards.push(`<span class="cuenta-tarjetas"><span class="card-tarjeta card-tarjeta--amarilla"></span>${j.amarillas}</span>`);
   if (j.rojas) cards.push(`<span class="cuenta-tarjetas"><span class="card-tarjeta card-tarjeta--roja"></span>${j.rojas}</span>`);
-  const sub = [j.edad ? `${j.edad} años` : null, j.nacionalidad && j.nacionalidad !== 'Uruguay' ? j.nacionalidad : null]
-    .filter(Boolean).join(' · ');
+  const valor = j.valor_tm || j.valor_mercado;
+  const sub = [
+    j.edad ? `${j.edad} años` : null,
+    j.nacionalidad && j.nacionalidad !== 'Uruguay' ? j.nacionalidad : null,
+    valor ? fmtValor(valor) : null,
+  ].filter(Boolean).join(' · ');
 
   const detalle = `<div class="player-detail" hidden data-detail="${idx}">
     <div class="player-detail__item"><span>Altura</span><b>${fmtAltura(j.altura)}</b></div>
     <div class="player-detail__item"><span>Pie</span><b>${esc(j.pie || '—')}</b></div>
     <div class="player-detail__item"><span>Nacionalidad</span><b>${esc(j.nacionalidad || '—')}</b></div>
-    <div class="player-detail__item"><span>Valor</span><b>${fmtValor(j.valor_mercado)}</b></div>
+    <div class="player-detail__item"><span>Valor</span><b>${fmtValor(valor)}</b></div>
     <div class="player-detail__item"><span>Minutos</span><b class="tnum">${j.minutos || 0}′</b></div>
     <div class="player-detail__item"><span>Tiros</span><b class="tnum">${j.tiros || 0}</b></div>
     <div class="player-detail__item"><span>Al arco</span><b class="tnum">${j.tiros_al_arco || 0}</b></div>
