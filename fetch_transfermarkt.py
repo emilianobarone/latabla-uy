@@ -90,7 +90,10 @@ def parse_kader(html: str) -> list[tuple[str, int, str]]:
     filas = re.split(r'<td class="posrela">', html)
     for fila in filas[1:]:
         mid = re.search(r'/profil/spieler/(\d+)', fila)
-        mnom = re.search(r'/profil/spieler/\d+"[^>]*>([^<]+)</a>', fila)
+        # El nombre es el texto justo después del link de perfil. NO exigir que
+        # termine en </a>: los capitanes tienen un <span> de ícono adentro del
+        # link, lo que antes los hacía saltear.
+        mnom = re.search(r'/profil/spieler/\d+"[^>]*>\s*([^<]+)', fila)
         if not mnom or not mid:
             continue
         nombre = unescape(mnom.group(1)).strip()

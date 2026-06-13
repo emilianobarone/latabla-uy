@@ -493,7 +493,9 @@ function playerRow(j, idx) {
   const cards = [];
   if (j.amarillas) cards.push(`<span class="cuenta-tarjetas"><span class="card-tarjeta card-tarjeta--amarilla"></span>${j.amarillas}</span>`);
   if (j.rojas) cards.push(`<span class="cuenta-tarjetas"><span class="card-tarjeta card-tarjeta--roja"></span>${j.rojas}</span>`);
-  const valor = j.valor_tm || j.valor_mercado;
+  // Solo mostramos el valor de Transfermarkt (verificable). El de Sportradar
+  // es viejo/inflado, así que no se usa ni como fallback.
+  const valor = j.valor_tm || null;
   const sub = [
     j.edad ? `${j.edad} años` : null,
     j.nacionalidad && j.nacionalidad !== 'Uruguay' ? j.nacionalidad : null,
