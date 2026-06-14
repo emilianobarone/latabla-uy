@@ -5,6 +5,9 @@ test_playerfacts.json
 feed_*.json
 config_tree.json
 
+# Logs de la corrida diaria automática
+logs/
+
 # Navegador / Python
 .browser-profile/
 __pycache__/
