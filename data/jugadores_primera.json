@@ -787,7 +787,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 1500000,
+     "tm_id": "1049404"
     },
     {
      "id": 3035042,
@@ -1298,7 +1300,9 @@
      "tiros": 2,
      "tiros_al_arco": 1,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 200000,
+     "tm_id": "1158751"
     },
     {
      "id": 1406463,
@@ -2189,7 +2193,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 50000,
+     "tm_id": "1062319"
     },
     {
      "id": 3044107,
@@ -2239,7 +2245,9 @@
      "tiros": 3,
      "tiros_al_arco": 2,
      "goles_cabeza": 2,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 400000,
+     "tm_id": "657755"
     },
     {
      "id": 2121250,
@@ -3244,7 +3252,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 300000,
+     "tm_id": "898036"
     },
     {
      "id": 2931523,
@@ -3429,7 +3439,9 @@
      "tiros": 2,
      "tiros_al_arco": 2,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 400000,
+     "tm_id": "1022780"
     },
     {
      "id": 2154490,
@@ -3508,7 +3520,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 125000,
+     "tm_id": "1332993"
     },
     {
      "id": 2965381,
@@ -3560,7 +3574,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 50000,
+     "tm_id": "1339505"
     },
     {
      "id": 2965377,
@@ -3801,7 +3817,9 @@
      "tiros": 1,
      "tiros_al_arco": 1,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 200000,
+     "tm_id": "970867"
     },
     {
      "id": 2544201,
@@ -3907,7 +3925,9 @@
      "tiros": 2,
      "tiros_al_arco": 2,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 400000,
+     "tm_id": "1228250"
     },
     {
      "id": 2341633,
@@ -3932,7 +3952,9 @@
      "tiros": 2,
      "tiros_al_arco": 1,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 450000,
+     "tm_id": "1011556"
     },
     {
      "id": 2935121,
@@ -3957,7 +3979,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 75000,
+     "tm_id": "1281790"
     }
    ]
   },
@@ -5203,7 +5227,9 @@
      "tiros": 2,
      "tiros_al_arco": 2,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 450000,
+     "tm_id": "1072711"
     },
     {
      "id": 2089527,
@@ -5984,7 +6010,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 50000,
+     "tm_id": "1500100"
     },
     {
      "id": 2368917,
@@ -6447,7 +6475,9 @@
      "tiros": 1,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 300000,
+     "tm_id": "1054448"
     },
     {
      "id": 2008563,
@@ -6607,7 +6637,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 175000,
+     "tm_id": "989173"
     },
     {
      "id": 1423027,
@@ -7614,7 +7646,9 @@
      "tiros": 1,
      "tiros_al_arco": 1,
      "goles_cabeza": 1,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 150000,
+     "tm_id": "1147667"
     },
     {
      "id": 2940231,
@@ -8310,7 +8344,9 @@
      "tiros": 1,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 300000,
+     "tm_id": "1108738"
     },
     {
      "id": 2475435,
@@ -8800,7 +8836,9 @@
      "tiros": 0,
      "tiros_al_arco": 0,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 75000,
+     "tm_id": "1513060"
     },
     {
      "id": 2557217,
@@ -10995,7 +11033,9 @@
      "tiros": 3,
      "tiros_al_arco": 1,
      "goles_cabeza": 0,
-     "penales": 0
+     "penales": 0,
+     "valor_tm": 250000,
+     "tm_id": "744605"
     },
     {
      "id": 2548599,

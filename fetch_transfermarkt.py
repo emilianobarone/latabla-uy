@@ -21,6 +21,7 @@ import ssl
 import sys
 import time
 import unicodedata
+import urllib.parse
 import urllib.request
 from difflib import SequenceMatcher
 from html import unescape
@@ -80,6 +81,98 @@ def fetch_html(url: str) -> str:
         "User-Agent": UA, "Accept-Language": "es-ES,es;q=0.9"})
     with urllib.request.urlopen(req, timeout=30, context=SSL_CTX) as r:
         return r.read().decode("utf-8", "replace")
+
+
+def fetch_retry(url: str, intentos: int = 4) -> str:
+    """fetch_html tolerante a cortes de conexión (devuelve '' si falla todo)."""
+    for i in range(intentos):
+        try:
+            return fetch_html(url)
+        except Exception:
+            if i == intentos - 1:
+                return ""
+            time.sleep(1.5)
+    return ""
+
+
+# ---- Segunda pasada: búsqueda por nombre para jugadores sin match ----
+# token del club tal como aparece en Transfermarkt (incluye filiales U19/B) y
+# tokens negativos para desambiguar (Cerro vs Cerro Largo).
+CLUB_TOKENS = {
+    "Peñarol": ("penarol", []), "Nacional": ("nacional", []),
+    "Defensor Sporting": ("defensor", []), "Liverpool": ("liverpool", []),
+    "Juventud de Las Piedras": ("juventud", []), "Racing": ("racing", []),
+    "M.C. Torque": ("torque", []), "Albion": ("albion", []),
+    "Boston River": ("boston", []), "Dep Maldonado": ("maldonado", []),
+    "Wanderers": ("wanderers", []), "Central Español": ("central", []),
+    "Cerro Largo": ("cerro largo", []), "Progreso": ("progreso", []),
+    "Danubio": ("danubio", []), "Cerro": ("cerro", ["largo"]),
+}
+
+
+def _legible(nombre: str) -> str:
+    return f"{nombre.split(',')[1].strip()} {nombre.split(',')[0].strip()}" \
+        if "," in nombre else nombre
+
+
+def _meta_perfil(html: str) -> dict | None:
+    m = re.search(r'<meta name="description" content="([^"]+)"', html)
+    if not m:
+        return None
+    desc = unescape(m.group(1))
+    o: dict = {}
+    ma = re.search(r",\s*(\d+),\s*(.+?)\s*➤\s*([^,➤]+)", desc)
+    if ma:
+        o["edad"] = int(ma.group(1))
+        o["pais"] = ma.group(2).strip()
+        o["club"] = ma.group(3).strip()
+    mv = re.search(r"[Vv]alor de mercado:\s*([\d.,]+\s*(?:mill\.|mil)\s*€)", desc)
+    o["valor"] = valor_a_euros(mv.group(1)) if mv else None
+    return o
+
+
+def _historial_clubes(pid: str) -> list[str]:
+    j = fetch_retry(f"https://www.transfermarkt.es/ceapi/transferHistory/list/{pid}")
+    return [norm(c.encode().decode("unicode_escape"))
+            for c in re.findall(r'"clubName":"([^"]*)"', j)]
+
+
+def _buscar_ids(nombre: str) -> list[str]:
+    h = fetch_retry("https://www.transfermarkt.es/schnellsuche/ergebnis/"
+                    f"schnellsuche?query={urllib.parse.quote(nombre)}")
+    ids: list[str] = []
+    for m in re.finditer(r"/profil/spieler/(\d+)\"", h):
+        if m.group(1) not in ids:
+            ids.append(m.group(1))
+    return ids[:6]
+
+
+def _club_coincide(nombre_club: str, equipo: str) -> bool:
+    tok, negs = CLUB_TOKENS.get(equipo, ("", []))
+    c = norm(nombre_club)
+    return bool(tok) and tok in c and not any(n in c for n in negs)
+
+
+def buscar_valor_faltante(jugador: dict, equipo: str) -> tuple[int, str] | None:
+    """Busca el jugador en TM por nombre y acepta el valor SOLO si su club
+    actual es el nuestro (juvenil/filial) o nuestro club está en su historial
+    de carrera (préstamo/transferencia). Verifica nacionalidad y edad."""
+    for pid in _buscar_ids(_legible(jugador["nombre"])):
+        meta = _meta_perfil(fetch_retry(f"https://www.transfermarkt.es/x/profil/spieler/{pid}"))
+        time.sleep(0.2)
+        if not meta or not meta.get("valor"):
+            continue
+        nac = (not jugador.get("nacionalidad") or not meta.get("pais")
+               or norm(jugador["nacionalidad"]) == norm(meta["pais"]))
+        ed = (not jugador.get("edad") or not meta.get("edad")
+              or abs(jugador["edad"] - meta["edad"]) <= 1)
+        if not (nac and ed):
+            continue
+        if _club_coincide(meta.get("club", ""), equipo) or \
+                any(_club_coincide(c, equipo) for c in _historial_clubes(pid)):
+            return meta["valor"], pid
+        time.sleep(0.2)
+    return None
 
 
 def parse_kader(html: str) -> list[tuple[str, int, str]]:
@@ -158,6 +251,8 @@ def emparejar(nuestros: list[dict], tm: list[tuple[str, int, str]]) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry", action="store_true", help="No escribir, solo reportar")
+    ap.add_argument("--sin-busqueda", action="store_true",
+                    help="Saltear la 2da pasada de búsqueda por nombre (más rápido)")
     args = ap.parse_args()
 
     path = DATA / "jugadores_primera.json"
@@ -198,7 +293,26 @@ def main() -> int:
         print(f"  {nombre:<24} TM:{len(tm):>2} jugadores · emparejados {n}/{len(eq['jugadores'])}")
         time.sleep(1.5)
 
-    print(f"\nEmparejados: {total_match}/{total_jug} jugadores con valor de Transfermarkt")
+    print(f"\nEmparejados (por plantel): {total_match}/{total_jug}")
+
+    # Segunda pasada: búsqueda por nombre para los que quedaron sin valor
+    # (juveniles en el equipo B, préstamos, transferencias de mitad de año).
+    if not args.sin_busqueda:
+        faltan = [(j, e["nombre"]) for e in data["equipos"]
+                  for j in e["jugadores"] if not j.get("valor_tm")]
+        print(f"\nBúsqueda por nombre para {len(faltan)} sin valor...")
+        nuevos = 0
+        for j, equipo in faltan:
+            res = buscar_valor_faltante(j, equipo)
+            if res:
+                j["valor_tm"], j["tm_id"] = res
+                nuevos += 1
+                print(f"  + {_legible(j['nombre']):<26} {equipo:<18} €{res[0]:>8}")
+            time.sleep(0.3)
+        total_match += nuevos
+        print(f"\nRecuperados por búsqueda: {nuevos}")
+
+    print(f"Total con valor de Transfermarkt: {total_match}/{total_jug}")
     if not args.dry:
         path.write_text(json.dumps(data, ensure_ascii=False, indent=1))
         print(f"Guardado: {path}")
